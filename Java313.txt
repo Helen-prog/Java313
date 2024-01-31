@@ -1,0 +1,176 @@
+cmd
+java -version
+
+Main.java
+
+public class Main{
+	public static void main(String[] args){
+		System.out.println("Hello world!");
+	}
+}
+
+javac Main.java
+
+
+5,2 => 5.2
+D:\AR
+D:\AR\chet
+
+%d - для целочисленных значений
+%s - для строк
+%f - для вещественных чисел
+%c - для отдельного символа (тип char)
+
+258
+0000 0001 0000 0010
+2
+		  0000 0010
+		  
+		  
+0-9
+
+ворона
+1
+вороны
+2 3 4
+ворон
+0 5 6 7 8 9 
+
+копейка
+1 21 31 91
+
+копейки
+2 92
+3 93
+4 94
+копеек
+5 6 7 8 9 
+
+11
+12
+13
+14
+
+Введите номер месяца: (1-12)
+
+Зима
+Весна
+Лето
+Осень
+
+Ошибка ввода данных
+
+5 - 10, 11, 12
+4 - 7, 8, 9
+3 - 4, 5, 6
+2 - 1, 2, 3
+
+условие ? true : false
+				 условие ? true : false
+								  условие ? true : false
+													условие ? true : false
+													
+1 2 3 4 5
+1 3 5  =  9
+	
+1 + 5 < 3	
+
+6\n
+апвапва\n
+6
+
+
+Math.random() * (max-min) + min;
+
+Рекурсия
+
+i = 2
+array[i] - текущий элемент
+array[i + 1] - следующий элемент
+
+5! = 1*2*3*4*5 = 120
+
+int -> Integer
+
+String
+
+StringBuilder
+StringBuffer
+
+git --version
+git --help
+
+
+git init
+- создание репозитория (один раз для одного репозитория)
+
+git status
+- состояние репозитория
+
+git add -A
+		-A, --all - все файлы, которые находятся в папке и всех подпапках
+		Main.java - добавяет Main.java
+		. - добавяет все файлы из текущей директории
+		
+git config --global user.name 'new user'
+		   --local
+		
+git config --global user.email 'test@mail.ru'
+
+git commit -m "first commit"
+- cоздание контрольной точки
+
+
+git branch
+- просмотр веток
+
+git branch test
+git branch readme
+- создание новой ветки
+
+git branch -D test
+- удаление ветки
+
+git checkout readme
+git checkout master
+- переход на ветку
+
+readme.md
+
+master          ->      readme 
+	- readme.md	<-	   - readme.md
+
+		->  ...
+
+git merge readme
+
+git log
+Q q
+
+
+токен
+
+Win + R => control
+Диспечер учетных записей
+Добавить общие учетные записи
+
+
+https://github.com
+Helen-prog
+
+
+git remote add origin https://github.com/Helen-prog/Java313.git
+
+git push -u origin master
+
+5e254cbb79aca65900e4f4a64a007cb4b7e22bb2
+
+
+0) git status
+
+1) git add .
+2) git commit -m "change Main"
+3) git push
+- переносим контрольную точку с локального репозитория на удаленный репозиторий
+
+
