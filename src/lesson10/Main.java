@@ -289,8 +289,10 @@ public class Main {
 //        System.out.println(x);
 //        System.out.println("x = " + x + ", y = " + y);
 
-        System.out.println(0b101 >> 1);
-        System.out.println(5 >> 2);
+//        System.out.println(0b101 >> 1);
+//        System.out.println(5 >> 2);
+
+        System.out.println("Вносим изменения");
 
     }
 }
