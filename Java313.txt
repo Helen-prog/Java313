@@ -158,10 +158,11 @@ Win + R => control
 https://github.com
 Helen-prog
 
-
-git remote add origin https://github.com/Helen-prog/Java313.git
-
-git push -u origin master
+1) git init
+2) git add .
+3) git commit -m "change Main"
+4) git remote add origin https://github.com/Helen-prog/Java313.git
+5) git push -u origin master
 
 5e254cbb79aca65900e4f4a64a007cb4b7e22bb2
 
