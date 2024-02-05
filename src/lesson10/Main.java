@@ -296,6 +296,36 @@ public class Main {
 
 //        System.out.println("Проверка изменений на GitHub");
 
-        System.out.println("Вносим изменения на другом компьютере");
+
+//        System.out.println("Вносим изменения на другом компьютере");
+
+//        int n = 5;
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+////                System.out.print(((i + j) & 1) == 0 ? "X  " : "0  ");
+////                System.out.print((i + j) % 2 == 0 ? "X  " : "0  ");
+//                System.out.print((i & 1) == (j & 1) ? "X  " : "0  ");
+////                System.out.print(i % 2 == j % 2 ? "X  " : "0  ");
+//            }
+//            System.out.println();
+//        }
+
+        System.out.println(0b101 >> 1);
+//        System.out.println(Integer.toBinaryString(5 >> 1));  // 10
+//        System.out.println(Integer.toBinaryString(0b101 >> 1));
+        printBinaryString(5);
+//        printBinaryString(5 >> 1);
+//        printBinaryString(0b101 >> 2);
+//        printBinaryString(Integer.MIN_VALUE);
+//        printBinaryString(Integer.MIN_VALUE >> 2);
+//        printBinaryString(Integer.MIN_VALUE >>> 2);
+        printBinaryString(0b101 << 2);
+    }
+
+    public static void printBinaryString(int hexNumber){
+        String bits = Integer.toBinaryString(hexNumber);
+        String allBits = "00000000000000000000000000000000".substring(0, 32 - bits.length()) + bits;
+
+        System.out.printf("%11d : %s%n", hexNumber, allBits);
     }
 }
