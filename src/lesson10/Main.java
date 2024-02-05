@@ -295,7 +295,7 @@ public class Main {
 //        System.out.println("Вносим изменения");
 
 //        System.out.println("Проверка изменений на GitHub");
-        
 
+        System.out.println("Вносим изменения на другом компьютере");
     }
 }
