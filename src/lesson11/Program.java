@@ -29,24 +29,6 @@ class Person{
     private String name;
     private int age;
 
-    public String getName(){
-        return name;
-    }
-
-    public void setName(String name){
-        this.name = name;
-    }
-
-    public int getAge(){  // геттер для получения доступа к возрасту (get - получить)
-        return age;
-    }
-
-    public void setAge(int age){  // сеттер для установки нового значения возраста (set - установить)
-        if (age > 0 && age < 110) {
-            this.age = age;
-        }
-    }
-
     // инициализатор
 //    {
 //        name = "Первоначальное значение";
@@ -73,6 +55,24 @@ class Person{
 //        this.age = age;
         setName(name);
         setAge(age);
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public int getAge(){  // геттер для получения доступа к возрасту (get - получить)
+        return age;
+    }
+
+    public void setAge(int age){  // сеттер для установки нового значения возраста (set - установить)
+        if (age > 0 && age < 110) {
+            this.age = age;
+        }
     }
 
     void displayInfo(){
