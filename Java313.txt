@@ -189,3 +189,19 @@ Program.java
 Конструкторы
 Инкапсуляция (set, get)
 
+person_data
+	Human
+	Main
+	
+rect
+	Main.java
+	Rectangle.java
+	
+rand.nextInt(max - min) + min
+rand.nextInt(max - min + 1) + min
+
+groups
+	Main.java
+	Student.java
+	
+	
