@@ -204,4 +204,73 @@ groups
 	Main.java
 	Student.java
 	
+
+static
+
+number
+	Number.java
+	Main.java
+
+
+5! = 1*2*3*4*5 = 120
+
+Вложенные (внутренние) классы
+
+Наследование
+- родительский, базовый, суперкласс
+- потомок, дочерний, производный
+
+calc
+	Test.java
+	Calculation.java
+	MyCalculation.java
+	
+https://discord.gg/YGapGeMK
+https://meet.google.com/qgf-wqpb-ofv
+
+shape
+	Main.java
+	Figure.java
+	Rectangle.java
+	
+area_box
+	Main.java
+	Box.java
+	Box3D.java
+	
+	
+Абстрактные классы
+
+Интерфейсы
+
+
+Lambda выражения
+
+Динамические структуры данных
+
+JavaCollectionFramework
+
+LIFO (last in - first out) - стек
+
+
+Comparable
+Comparator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
