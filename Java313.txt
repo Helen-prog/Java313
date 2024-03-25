@@ -251,16 +251,27 @@ Lambda выражения
 JavaCollectionFramework
 
 LIFO (last in - first out) - стек
-
+FIFO (first in - first out) - очередь
 
 Comparable
 Comparator
 
 
 
+mas = [5,6,8,9,5]
 
+HashMap:
+int - хеш
+K - ключ
+V - значение
+Node - следующий элемент
 
-
+{
+int hash = 1042
+Key key = {"Виталий"}
+Integer value = 20
+Node next = null
+}
 
 
 
