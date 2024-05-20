@@ -449,4 +449,56 @@ FROM таблица_1 [INNER] JOIN таблица_2 ON условие
 SELECT столбецы
 FROM таблица_1 LEFT [RIGHT] JOIN таблица_2 ON условие
 
+Хранимые процедуры
+
+CREATE PROCEDURE имя_процедуры (параметры)
+	begin
+		операторы
+	end
+	
+
+DELIMITER //
+CREATE PROCEDURE ins_cust(n CHAR(50), e CHAR(50))
+	begin
+		INSERT INTO customers (name, email) VALUE(n, e);
+	end	
+//
+
+call ins_cust('Сычов Валерий', 'valeriy@gmail')//
+
+IF...ELSEIF...ELSE...END IF;
+
+CREATE PROCEDURE имя_процедуры (параметры)
+	begin
+		IF (условие) THEN
+			запрос 1;
+		ELSEIF(условие) THEN
+			запрос 2;
+		ELSE
+			запрос 3;
+		END IF;
+	end
+	
+	
+WHILE, REPEAT, LOOP
+
+WHILE условие DO
+	запрос
+END WHILE
+
+
+REPEAT
+	запрос
+UNTIL условие
+END REPEAT
+
+[label_name:] LOOP
+	запрос
+END LOOP [label_name]
+
+
+
+
+
+
 
