@@ -208,6 +208,7 @@ public class Main {
 //    public static void hello(String name) {
 //        System.out.println("Hello, " + name + "!");
 //    }
-        System.out.println("Вносим изменения");
+//        System.out.println("Вносим изменения");
+        System.out.println("Склонированный репозиторий");
     }
 }
