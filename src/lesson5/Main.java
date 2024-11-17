@@ -74,28 +74,28 @@ public class Main {
 //        func_num(99, 39, 99, 100, 34);
 //        func_num();
 
-        System.out.println(ch(1, 2, 3, 4, 5, 6, 7, 8, 9));
-        System.out.println(ch(3, 6, 1, 9, 5));
-    }
-
-    public static ArrayList ch(int... args){
-        ArrayList<Integer> mas = new ArrayList<>();
-        double sum = 0;
-        int count = 0;
-        double average;
-        for(int i: args){
-            sum += i;
-            count += 1;
-        }
-        average = sum / count;
-        System.out.println("Среднее арифметическое: " + average);
-        for (int i: args){
-            if(i < average){
-                mas.add(i);
-            }
-        }
-        return mas;
-    }
+//        System.out.println(ch(1, 2, 3, 4, 5, 6, 7, 8, 9));
+//        System.out.println(ch(3, 6, 1, 9, 5));
+//    }
+//
+//    public static ArrayList ch(int... args){
+//        ArrayList<Integer> mas = new ArrayList<>();
+//        double sum = 0;
+//        int count = 0;
+//        double average;
+//        for(int i: args){
+//            sum += i;
+//            count += 1;
+//        }
+//        average = sum / count;
+//        System.out.println("Среднее арифметическое: " + average);
+//        for (int i: args){
+//            if(i < average){
+//                mas.add(i);
+//            }
+//        }
+//        return mas;
+//    }
 
 //    public static void func_num(int... args) {
 //        int max = -1;
@@ -208,4 +208,6 @@ public class Main {
 //    public static void hello(String name) {
 //        System.out.println("Hello, " + name + "!");
 //    }
+        System.out.println("Вносим изменения");
+    }
 }

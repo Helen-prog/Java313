@@ -499,6 +499,265 @@ END LOOP [label_name]
 
 
 
+index.html
 
+align="left | center | right | justify"
+
+<!-- комментарий -->
+
+H20
+
+file:///D:/Java313/HTML/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82.html
+
+file:///D:/Java313/HTML/index.html
+
+Ctrl + H
+
+align="
+style="text-align:
+
+#0000ff => #00f
+00 - red
+00 - green
+ff - blue
+0-9A-F
+#050586
+
+rgb(255, 0, 0)
+
+Типы изображений:
+- растровые
+	- *.jpg (*.jpeg)
+	- *.png
+	- *.gif
+- векторные
+	- *.svg
+	
+style.css
+
+file:///D:/Java313/HTML/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/test.html#page
+
+
+
+
+file:///D:/Java313/HTML/form/form.html
+
+file:///D:/Java313/HTML/form/file.php?name=Olga&psw=123456
+
+file:///D:/Java313/HTML/form/form.html?name=Igor&psw=123&pol=on#file.php
+
+file:///D:/Java313/HTML/form/form.html#file.php
+
+file:///D:/Java313/HTML/form/form.html?name=Olga&psw=12345#file.php
+
+file:///D:/Java313/HTML/form/form.html?name=Olga&psw=123456&x=81&y=42#file.php
+
+file:///D:/Java313/HTML/form/form.html?day=6&name=&psw=&x=76&y=40#file.php
+
+script.js
+
+Типы данных
+
+string
+number
+boolean
+
+undefined
+null -> object
+
+Object
+
+FALSE: 0, 0.0, "", false, undefined, null, NaN
+
+
+file:///D:/Java313/JavaScript/index.html?name1=Igor#test.php
+
+http://f1012311.xsph.ru/
+
+cs
+	Server.java
+	Client.java
+	
+	
+TCP (Transmission Control Protocol) 
+UDP (User Datagram Protocol)
+
+DatagramSocket
+DatagramPacket
+
+udp
+	Sender.java
+	Received.java
+
+
+JDBC (Java Data Connectivity) - соединение с базами данных на Java
+
+CREATE DATABASE users; 
+
+executeQuery() - SELECT
+executeUpdate() - CREATE, UPDATE, DROP, DELETE, INSERT 
+execute()
+
+example
+	ReservationSystem.java
+
+
+PreparedStatment
+
+
+
+jackson core
+
+MVC
+
+jakarta serlet
+
+JAVA EE - Java Enterprise Edition
+
+Jakarta EE 
+
+Сервлет
+http://localhost:8080/hello-servlet
+
+http://localhost:8080/second?param1=30&param2=11&age=18&name=Andrey&name=Petr
+
+
+<input type="text" name="param1">
+
+
+http://localhost:8080/firstpost.html
+
+BookWebApp
+
+mysql connector
+
+RegisterServlet
+BookListServlet
+
+
+JSP (Java (Jakarta) Server Page)
+
+JSP Scriplet
+<% %>
+
+JSP Declaration
+<%! %>
+
+JSP директивы
+<%@ page import="..." %>
+
+Expression Language (EL)
+${}
+
+
+http://localhost:8080/output.jsp?name1=%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0
+
+http://localhost:8080/output.jsp?name1=Olga
+
+Java Bean:
+
+- модификаторы доспупа все private
+- конструктор без параметров и его теле ничего нет
+- get, set
+
+JSTL - Jakarta Standard Tag Library 
+
+Jakarta Standard Tag Library Implementation
+Jakarta Standard Tag Library API
+
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fmt" uri="jakarta.tags.formatting" %>
+<%@ taglib prefix="sql" uri="jakarta.tags.sql" %>
+<%@ taglib prefix="x" uri="jakarta.tags.xml" %>
+<%@ taglib prefix="fn" uri="jakarta.tags.functions" %>
+
+
+IoC - Inversion of Control (инверсия управления) — это некий абстрактный принцип, набор рекомендаций для написания слабо связанного кода. 
+
+DI - Dependency Injection (внедрение зависимостей)
+
+Bean — это объект какого-либо класса, который создается, собирается и управляется контейнером Spring IoC.
+
+
+file:///D:/Lessons/XAMPP/htdocs/ajax/index.html?oldPassword=123&newPassword=456&uid=2
+
+spring Context
+
+XML file (устаревший способ)
+Annotation + XML file
+Java Code
+
+Spring Bean - это объект, который создается и управляется Spring Container
+
+applicationContext - представляет собой Spring Container
+
+Способы внедрения зависимостей:
+- с помощью конструктора
+- с помощью сеттеров
+- Autowiring
+	- конструктора
+	- сеттер
+	- поля
+
+myApp.properties
+
+bean scope:
+- singletone
+- prototype
+
+class Cat               -> cat
+class MyCat             -> myCat 
+class SQLTest           -> SQLTest
+
+
+Spring MVC — это компонент или шаблон проектирования Spring Framework, который позволяет разрабатывать веб-приложения на Java с использованием архитектуры Model — View — Controller.
+
+Model — подразумевает логику работы с данными (контейнер для хранения даннях)
+View — логика интерфейса (внешний вид)
+Controller — логика обработки запросов (центр управления, могз Spring MVC)
+
+Controller получает данные из Model и затем эти данные отображает во View (представлении)
+
+Controller (DispatcherServlet)
+
+DAO (Data Access Object) - отправка запросов к базе данных (специализированный класса, который принято выносить в отдельный DAO-слой приложения)
+
+hibernate.cfg.xml
+
+HQL (Hibernate Query Language)
+
+Создать БД, в ней три таблицы (связь ManyToMany). 
+С использовании Hibernate создать возможностью 
+добавления данных в БД, вывода
+информации из нее и удаления данных.
+
+
+Создать To-Do List приложение с использованием Spring MVC
+
+
+
+One-to-One (один к одному)
+One-to-Many (один ко многим)
+Many-to-One (многие к одному)
+Many-to-Many (многие ко многим)
+
+
+Uni-directional - это отношения, когда одна сторона о них не знает
+Bi-directional - это отношения, когда обе сторны знают друг о друге
+
+git clone 
+
+children      section
+1             2
+1             3
+2             1
+2             2
+
+Thymeleaf
+${...} - Variable Expression
+*{...} - Selection Expression
+#{...} - Message Expression
+@{...} - Link (URL) Expression
+~{...} - Fragment Expression
 
 
